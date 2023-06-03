@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> JS02</title>
+<style>
+h4{color:blue;padding:20px;font-size:40px;
+border:solid 2px blue;margin:10px 0px;text-align:center;
+display:inline-block;width:700px;background:black;}
+
+
+.ct{padding:20px;font-size:24;
+border:solid 2px blue;margin:10px;
+display:inline-block;width:300px;}
+
+
+</style>
+ </head>
+  <body>
+<h4 id="display"></h4>
+<hr>
+<div class="ct">
+<button onclick="intro()"> intro1</button>
+<button onclick="intro_02()"> intro2</button>
+<button onclick="intro_03()"> intro3</button>
+<button onclick="intro_04()"> intro4</button>
+</div>
+
+
+
+
+
+
+
+<script>
+
+//define the function
+a="<img src=assets/images/logo.png width=50px ><p>"
+function intro(){
+g =document.getElementById('display')
+g.innerHTML=a+"Welcome to Mason Events"
+}
+
+intro()
+
+
+function intro_02(){
+g =document.getElementById('display')
+
+b="Our services include <hr width=50%>"
+c=" <img src=assets/images/1.jpg width=250px height=300px >"
+g.innerHTML=a+b+c
+}
+
+
+
+function intro_03(){
+g =document.getElementById('display')
+b="Events management & Sponsorship"
+c=" <img src=assets/images/2.jpg width=250px height=300px >"
+g.innerHTML=a+b+c
+}
+
+
+
+function intro_04(){
+g =document.getElementById('display')
+b="Event design and creative solutions"
+c=" <img src=assets/images/4.jpg width=280px height=300px >"
+g.innerHTML=a+b+c
+}
+
+
+</script>
+
+
+
+ </body>
+</html>

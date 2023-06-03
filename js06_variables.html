@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> JS02</title>
+
+ </head>
+  <body>
+  
+  
+ 
+  <h4>Javascript Variables</h4>
+
+<script>
+// variable scope
+//this is the range for which a variable value
+//can be used or can be valid
+
+var val_10=120
+console.log("the value is : ",val_10)
+
+var val_10=340
+console.log("the value is : ",val_10)
+
+//scope within the main scope
+{
+var val_20=4000
+console.log("in this scope 1 the value is : ",val_10)
+console.log("in this scope val_20 is : ",val_10)
+}
+
+
+{
+console.log("in this scope 2 the value is : ",val_10)
+}
+
+console.log("the value of val_20 is : ",val_20)
+
+
+</script>
+
+
+
+ </body>
+</html>

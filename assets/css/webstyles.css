@@ -1,0 +1,174 @@
+html,body{margin:0px;padding:0px;}
+
+
+
+
+.main_header{background-image:url("../../assets/images/ftr_bck.jpg");
+background-size:cover;}
+
+.navibar {text-align:center;}
+.navibar a{text-decoration:none;color:#EFEE3C ;background-color:;
+font-size:18px;padding:5px;display:inline-block;width:90px;text-align:center;}
+
+
+.utility{background-color:black;  font-size:18px; padding:10px;}
+
+.utility_socials a{margin:0px 5px;text-decoration:none;color:white;
+font-weight:bolder;}
+
+
+.title{background-color:rgba(0,0,0,0.7);margin-top:20px;margin-bottom:20px;height:300px;}
+.title1{color:#EFEE3C ;display:inline-block;font-size:50px;text-align:center;width:90%;}
+.title2{color:#69C4C3;display:inline-block;font-size:30px;text-align:center;width:90%;}
+
+footer{height:300px;
+background-image:url("../../assets/images/ftr_bck.jpg");
+background-size:cover;}
+.cover{height:100%;background-color:rgba(21, 19, 7,0.9) }
+.cover_2{background-color:rgba(0,0,0,0.7) }
+
+/*  Intro section  */
+.xl{border:solid 2px gray;}
+.mcontent{padding:40px;margin:0px;height:400px;}
+
+.mcontent_left{background-image:url("../../assets/images/main_intro.jpeg");
+background-size:cover;height:90%;float:left;width:55%}
+.mcontent_right{width:40%;padding:1px;float:left;margin:20px;}
+.mtitle{font-size:25px;margin-top:40px;}
+.mtext{line-height:25px;text-align:justified;}
+.mlink  a{color:#EFEE3C ;display:inline-block;text-decoration:none;font-size:26px;
+padding:5px 10px;width:50%;margin:20px 5px;border:solid 2px #EFEE3C; border-radius:25px;
+text-align:center;}
+
+
+/*  services list section  */
+.mservice{background-color:#EAE401;height:400px;padding:10px;margin:0px;}
+.mservice_mtitle{padding:10px;margin:0px;font-size:45px;text-align:center;}
+
+.mservice_content{height:80%;width:23%;display:inline-block;float:left;
+text-align:center;margin:0px 11px;}
+
+.mcover{width:100%;height:100%;background-color:rgba(21, 19, 7,0.7);
+border-radius:50px; }
+.mservice_desc{display:inline-block;margin-left:30px;
+margin-top:40px;font-weight:bolder;
+color:#EAE401;font-size:24px;text-align:right;}
+
+.mservice_img{padding:0px;margin:0px;font-size:45px;
+border-radius:50px;width:80%;height:80%;background-size:cover;
+border:solid 2px #EAE401;cursor:pointer;}
+
+.mservice_img:hover{border:solid 2px white;}
+.mservice_img:hover .mservice_desc{color:white;font-size:24px;font-weight:bolder;}
+.mservice_img:hover .mcover{background-color:rgba(21, 19, 7,0.4);}
+
+
+/* video section  */
+
+.mvideo{background:black;padding:40px;text-align:center;margin:0xpx;}
+.vplayer{width:600px;}
+
+
+
+/*  footer list section  */
+
+
+.footer_title{color:#EFEE3C;font-size:20px;}
+.footer_content{color:white;font-size:17px;padding:20px;text-align:justify;}
+
+.footer_column1{float:left;display:inline-block;width:33%;
+margin:10px;border:solid 2px #EFEE3C;height:200px;}
+
+.footer_column2{float:left;display:inline-block;width:18%;
+margin:10px;border:solid 2px #EFEE3C;height:200px;}
+
+.footer_alinks a{color:#69C4C3;text-decoration:none;padding:11px;
+font-size:18px;margin-left:15px;}
+
+.footer_slinks a{color:#69C4C3;text-decoration:none;padding:11px;
+font-size:18px;margin-left:15px;}
+
+.footer_clink a{color:;text-decoration:none;padding:11px;
+font-size:18px;}
+.footer_alinks {margin-top:4px;margin-bottom:4px}
+.footer_slinks {margin-top:4px;margin-bottom:4px}
+
+.footer_row{color:white;font-size:17px;background-color:black;
+padding-top:11px;padding-bottom:11px}
+
+.xtra{color:#69C4C3;padding:5px;font-size:18px;}
+
+
+@media all and (max-width:1000px){
+	
+.footer_column1{width:40%;margin:20px;}
+
+.footer_column2{width:40%;margin:20px;}	
+footer{height:500px;}	
+.footer_row{width:100%;display:block;}	
+
+
+
+.mcontent{padding:10px 20px;margin:0px;height:auto;
+text-align:center;}
+.mcontent_left{background-image:url("../../assets/images/main_intro.jpeg");
+background-size:cover;height:300px;float:none;width:80%;
+display:inline-block;}
+
+.mcontent_right{display:inline-block;;width:80%;padding:10px;
+float:none;margin:20px;height:400px;text-align:left;}
+
+.mlink a{width:50%;}
+.mtext{text-align:left;}
+
+}
+
+
+
+@media all and (max-width:700px){
+	
+.footer_column1{width:80%;margin:20px;height:200px
+display:inline-block;float:none;}
+
+.footer_column2{width:80%;margin:20px;height:180px;
+display:inline-block;float:none;}	
+footer{height:auto;text-align:center;}	
+.footer_row{width:100%;display:block;}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
